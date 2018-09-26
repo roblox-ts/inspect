@@ -5,4 +5,15 @@ interface InspectOptions {
 	process?: (item: any, path: Array<string>) => string | undefined;
 }
 
-export default function inspect(value: any, options?: InspectOptions): string;
+interface Inspect {
+	(value: any, options?: InspectOptions): string;
+	readonly KEY: symbol;
+	readonly METATABLE: symbol;
+	readonly _VERSION: string;
+	readonly _URL: string;
+	readonly _DESCRIPTION: string;
+	readonly _LICENSE: string;
+}
+
+declare const inspect: Inspect;
+export default inspect;
