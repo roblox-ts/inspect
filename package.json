@@ -1,6 +1,6 @@
 {
 	"name": "rbx-inspect",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "https://github.com/kikito/inspect.lua",
 	"main": "init.lua",
 	"types": "index.d.ts",
