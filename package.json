@@ -1,0 +1,11 @@
+{
+	"name": "rbx-inspect",
+	"version": "1.0.2",
+	"description": "https://github.com/kikito/inspect.lua",
+	"main": "init.lua",
+	"types": "index.d.ts",
+	"scripts": {},
+	"keywords": [],
+	"author": "Osyris",
+	"license": "MIT"
+}
