@@ -16,4 +16,4 @@ interface Inspect {
 }
 
 declare const inspect: Inspect;
-export default inspect;
+export = inspect;

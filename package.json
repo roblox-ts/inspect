@@ -1,8 +1,8 @@
 {
-	"name": "rbx-inspect",
-	"version": "1.0.4",
+	"name": "@rbxts/rbx-inspect",
+	"version": "1.0.0",
 	"description": "https://github.com/kikito/inspect.lua",
-	"main": "init.lua",
+	"main": "inspect.lua",
 	"types": "index.d.ts",
 	"scripts": {},
 	"keywords": [],
